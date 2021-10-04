@@ -11,14 +11,6 @@
     margin: auto;
 }
 
-body {
-    background-color: #4ea0ff;
-}
-
-.back-color {
-    background-color: white;
-}
-
 /* HEADER */
 #back-logo {
     background-image: url(../img/pattern.png);
@@ -28,7 +20,7 @@ body {
 }
 
 #logo {
-    width: 200px;
+    width: 20%;
     margin-top: 7%;
 }
 
@@ -45,5 +37,57 @@ h1 {
 }
 
 #photo-tim {
+    margin-top: 2%;
+}
+
+/* MAIN */
+.paragraph {
     margin-top: 20px;
+}
+
+#list {
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+/* TABLE */
+table {
+    border-collapse: collapse;
+    margin-top: 2%;
+    height: 80%;
+}
+thead {
+    background-color: #20a9e5;
+    color: white;
+}
+
+tbody {
+    background-color: #b1e5f2;
+}
+
+#tr3 {
+    background-color: white;
+}
+
+/* FOOTER */
+h4{
+    margin-top: 2%;
+}
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+    width: 29%;
+    height: 200px;
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+#graph{
+    background-image: url(../img/graph.jpg);
+    width: 29%;
+    height: 200px;
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
 }
