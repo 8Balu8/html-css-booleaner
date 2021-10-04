@@ -7,6 +7,43 @@
 
 /* COMMON */
 .container {
-    width: 95%;
+    width: 78%;
     margin: auto;
+}
+
+body {
+    background-color: #4ea0ff;
+}
+
+.back-color {
+    background-color: white;
+}
+
+/* HEADER */
+#back-logo {
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    height: 150px;
+    background-size: contain;
+}
+
+#logo {
+    width: 200px;
+    margin-top: 7%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.grey {
+    color: #808080;
+}
+
+#author {
+    color: #20a9e5;
+}
+
+#photo-tim {
+    margin-top: 20px;
 }
