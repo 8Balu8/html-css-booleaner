@@ -45,6 +45,11 @@ h1 {
     margin-top: 20px;
 }
 
+.paragraph strong {
+    background-color: yellow;
+    font-weight: 300;
+}
+
 #list {
     margin-left: 2%;
     margin-top: 3%;
@@ -52,22 +57,26 @@ h1 {
 
 /* TABLE */
 table {
+    margin-top: 2%;;
     border-collapse: collapse;
-    margin-top: 2%;
-    height: 80%;
 }
-thead {
-    background-color: #20a9e5;
+table .wide-col {
+    width: 50%;
+}
+table thead {
+    background-color: #20A8E6;
+}
+table th {
     color: white;
+    text-align: left;
+}
+table .odd {
+    background-color: #b2e4f2;
+}
+table td {
+    font-weight: 800;
 }
 
-tbody {
-    background-color: #b1e5f2;
-}
-
-#tr3 {
-    background-color: white;
-}
 
 /* FOOTER */
 h4{
