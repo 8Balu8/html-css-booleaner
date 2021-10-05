@@ -32,12 +32,21 @@ h1 {
     color: #808080;
 }
 
+.little-grey {
+    font-size: 10px;
+    color: #808080;
+}
+
 #author {
     color: #20a9e5;
 }
 
 #photo-tim {
     margin-top: 2%;
+}
+
+.captions {
+    font-size: 12px;
 }
 
 /* MAIN */
